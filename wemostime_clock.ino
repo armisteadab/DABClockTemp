@@ -135,7 +135,7 @@ void loop()
   }
 
       // wait X times 10 seconds before asking for the time again
-    for(i=1; i<2; i++) {
+    for(i=1; i<40; i++) {
       delay(10000);
     }
 }
